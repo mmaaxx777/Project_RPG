@@ -44,16 +44,16 @@ public class Game extends JPanel implements KeyListener{
     @Override
     public void keyPressed(KeyEvent ke) {
         if (ke.getKeyCode() == KeyEvent.VK_UP) {
-            chara.Y -= 10;
+            chara.dy -= 10;
         }
         if (ke.getKeyCode() == KeyEvent.VK_DOWN) {
-            chara.Y +=10;
+            chara.dy +=10;
         }
         if (ke.getKeyCode() == KeyEvent.VK_LEFT) {
-            chara.X -=10;
+            chara.dx -=10;
         }
         if (ke.getKeyCode() == KeyEvent.VK_RIGHT) {
-            chara.X +=10;
+            chara.dx +=10;
         }
     }
 

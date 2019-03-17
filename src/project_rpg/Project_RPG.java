@@ -22,7 +22,7 @@ public class Project_RPG {
            g.move();
            g.repaint();
            try{
-               Thread.sleep(10);
+               Thread.sleep(0);
            } catch (InterruptedException ex){
                Logger.getLogger(Project_RPG.class.getName()).log(Level.SEVERE, null,ex);
            }
